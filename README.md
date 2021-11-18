@@ -78,9 +78,9 @@ namespace MyLibrary
 The generated class is `partial` to help you add your business rules, so you can find it as following based on above setting:
 
 ```cs
-// How to extend it:
-// Same namespace
-// Same class
+// How to extend it?
+// Same namespace as you defined
+// Same class as you defined
 // 'partial' keyword
 
 namespace MyNamespace

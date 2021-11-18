@@ -97,12 +97,14 @@ namespace MyNamespace
 ```
 
 <hr/>
+
 ### [Nuget](https://www.nuget.org/packages/EnumerationClassGenerator)
 
 ```
 Install-Package EnumerationClassGenerator
 dotnet add package EnumerationClassGenerator
 ```
+
 <hr/>
 
 ![1](https://user-images.githubusercontent.com/8418700/142345352-f5f306f3-a62d-4dc0-a9e4-d2f87dc827a5.png)

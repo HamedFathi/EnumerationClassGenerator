@@ -61,8 +61,6 @@ namespace EnumerationClassGenerator
 
             var code = new StringBuilder();
             code.AppendLine("using System;");
-            code.AppendLine("using EnumerationClassGenerator;");
-
             code.AppendLine(sources.ToString());
             var result = code.ToString();
             context.AddSource($"{assemblyName}EnumerationGenerated", SourceText.From(result, Encoding.UTF8));

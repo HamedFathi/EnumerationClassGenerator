@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumerationClassGenerator", "EnumerationClassGenerator\EnumerationClassGenerator.csproj", "{B03B1388-2D74-4733-BC29-E392D36D367B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumerationClassGenerator.Sample", "EnumerationClassGenerator.Sample\EnumerationClassGenerator.Sample.csproj", "{0E532D3C-04DE-4BC3-92BD-9664EB19108E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B03B1388-2D74-4733-BC29-E392D36D367B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B03B1388-2D74-4733-BC29-E392D36D367B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B03B1388-2D74-4733-BC29-E392D36D367B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B03B1388-2D74-4733-BC29-E392D36D367B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E532D3C-04DE-4BC3-92BD-9664EB19108E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E532D3C-04DE-4BC3-92BD-9664EB19108E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E532D3C-04DE-4BC3-92BD-9664EB19108E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E532D3C-04DE-4BC3-92BD-9664EB19108E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2249FB8-0519-49B4-A588-BF39706337B4}
+	EndGlobalSection
+EndGlobal

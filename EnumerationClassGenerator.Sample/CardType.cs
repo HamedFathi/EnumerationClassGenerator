@@ -15,7 +15,7 @@ namespace EnumerationClassGenerator.Sample
     {
         public void MyNewMethod()
         {
-
+            
         }
     }
 }

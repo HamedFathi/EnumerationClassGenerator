@@ -11,6 +11,7 @@ namespace EnumerationClassGenerator
     {
         public void Execute(GeneratorExecutionContext context)
         {
+            context.AddSource(nameof(GeneratorConstants.EnumerationClass), SourceText.From(GeneratorConstants.EnumerationClass, Encoding.UTF8));
             context.AddSource(nameof(GeneratorConstants.EnumerationClassAttribute), SourceText.From(GeneratorConstants.EnumerationClassAttribute, Encoding.UTF8));
 
             if (context.SyntaxReceiver is not SyntaxReceiver receiver)

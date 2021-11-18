@@ -7,7 +7,7 @@
   <ItemGroup>
     <ProjectReference Include="..\EnumerationClassGenerator\EnumerationClassGenerator.csproj"
                       OutputItemType="Analyzer"
-                      ReferenceOutputAssembly="true"/>
+                      ReferenceOutputAssembly="false"/>
   </ItemGroup>
 
 </Project>

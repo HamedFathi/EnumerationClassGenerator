@@ -84,7 +84,7 @@ The generated class is `partial` to help you add your business rules, so you can
 // 'partial' keyword
 
 namespace MyNamespace
-    public partial class MyClass
+    public partial class MyClass /*: Enumeration*/
     {
         public void MyNewMethod()
         {

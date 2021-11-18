@@ -9,7 +9,6 @@
 Regardless of the behaviors, there is a repetitive section where you have to write your class fields similar to what we have in `enum`.
 
 ```cs
-// https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/enumeration-classes-over-enum-types
 // Enum
 public enum CardType
 {
@@ -90,6 +89,13 @@ namespace MyNamespace
         // ...
     }
 }
+```
+
+#### [Nuget](https://www.nuget.org/packages/MockableStaticGenerator)
+
+```
+Install-Package MockableStaticGenerator
+dotnet add package MockableStaticGenerator
 ```
 
 ![1](https://user-images.githubusercontent.com/8418700/142345352-f5f306f3-a62d-4dc0-a9e4-d2f87dc827a5.png)

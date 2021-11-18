@@ -105,26 +105,25 @@ As you can see there is a base class that provides some functionalities which in
 // Returns 'Name' property.
 override string ToString()
 
-\\ Returns all fields
+// Returns all fields
 IEnumerable<T> GetAll<T>()
 
-
-\\ Returns difference of two enumerations in integer.
+// Returns difference of two enumerations in integer.
 int AbsoluteDifference(Enumeration firstValue, Enumeration secondValue)
 
-\\ Returns value from an integer number.
+// Returns value from an integer number.
 T FromValue<T>(int value)
 
-\\ Returns value from a string name.
+// Returns value from a string name.
 T FromDisplayName<T>(string displayName)
 
-\\ Parse a value based on a condition.
+// Parse a value based on a condition.
 T Parse<T, K>(K value, string description, Func<T, bool> predicate)
 
-\\ Parse a value based on a condition with an result.
+// Parse a value based on a condition with an result.
 bool TryParse<T, K>(K value, string description, Func<T, bool> predicate, out T result)
 
-\\ Returns status of comparison in number.
+// Returns status of comparison in number.
 int CompareTo(object other)
 ```
 

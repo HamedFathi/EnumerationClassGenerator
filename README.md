@@ -91,7 +91,7 @@ namespace MyNamespace
 }
 ```
 
-#### [Nuget](https://www.nuget.org/packages/MockableStaticGenerator)
+### [Nuget](https://www.nuget.org/packages/MockableStaticGenerator)
 
 ```
 Install-Package MockableStaticGenerator

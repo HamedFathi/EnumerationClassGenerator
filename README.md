@@ -44,6 +44,7 @@ Define your `enum` type` and put `EnumerationClass` attribute on top of it.
 
 ```cs
 namespace MyLibrary
+{
     [EnumerationClass]
     public enum CardType
     {
@@ -65,6 +66,7 @@ But you can customize them:
 
 ```cs
 namespace MyLibrary
+{
     [EnumerationClass("MyClass", "MyNamespace")]
     public enum CardType
     {

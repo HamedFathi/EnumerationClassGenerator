@@ -97,6 +97,37 @@ namespace MyNamespace
 }
 ```
 
+## `Enumeration` Base Class
+
+As you can see there is a base class that provides some functionalities which includes the following:
+
+```cs
+// Returns 'Name' property.
+override string ToString()
+
+\\ Returns all fields
+IEnumerable<T> GetAll<T>()
+
+
+\\ Returns difference of two enumerations in integer.
+int AbsoluteDifference(Enumeration firstValue, Enumeration secondValue)
+
+\\ Returns value from an integer number.
+T FromValue<T>(int value)
+
+\\ Returns value from a string name.
+T FromDisplayName<T>(string displayName)
+
+\\ Parse a value based on a condition.
+T Parse<T, K>(K value, string description, Func<T, bool> predicate)
+
+\\ Parse a value based on a condition with an result.
+bool TryParse<T, K>(K value, string description, Func<T, bool> predicate, out T result)
+
+\\ Returns status of comparison in number.
+int CompareTo(object other)
+```
+
 <hr/>
 
 ### [Nuget](https://www.nuget.org/packages/EnumerationClassGenerator)
@@ -115,6 +146,7 @@ dotnet add package EnumerationClassGenerator
 ![3](https://user-images.githubusercontent.com/8418700/142345365-136dbf37-fd82-4a60-b03e-ae46104bb3b6.png)
 
 <hr/>
+
 <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
 

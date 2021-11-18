@@ -79,9 +79,10 @@ The generated class is `partial` to help you add your business rules, so you can
 
 ```cs
 // How to extend it?
-// Same namespace as you defined
-// Same class as you defined
-// 'partial' keyword
+// Use same namespace name as you defined.
+// Use same class name as you defined.
+// Use 'partial' keyword for the class.
+// To access base class features you should inherit from 'Enumeration'.
 
 namespace MyNamespace
     public partial class MyClass /*: Enumeration*/

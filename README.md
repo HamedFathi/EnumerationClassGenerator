@@ -63,6 +63,36 @@ If you use parameter-less `EnumerationClass` the default options are:
 * Same `namespace` as you `enum` =>  `MyLibrary` for this sample.
 * The class name will be combination of `enum` type name + "Enumeration" => `CardTypeEnumeration` for this sample.
 
+But you can customize them:
+
+```cs
+namespace MyLibrary
+    [EnumerationClass("MyClass", "MyNamespace")]
+    public enum CardType
+    {
+        Amex,
+        Visa,
+        MasterCard
+    }
+}
+```
+
+The generated class is `partial` to help you add your business rules, so you can find it as following based on above setting:
+
+```cs
+namespace MyNamespace
+    public partial class MyClass
+    {
+        public void MyNewMethod()
+        {
+            // MasterCard
+        }
+        
+        // ...
+    }
+}
+```
+
 
 
 

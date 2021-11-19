@@ -133,6 +133,7 @@ int CompareTo(object other)
 
 ```
 Install-Package EnumerationClassGenerator
+
 dotnet add package EnumerationClassGenerator
 ```
 

@@ -82,7 +82,7 @@ The generated class is `partial` to help you add your business rules, so you can
 // Use same namespace name as you defined.
 // Use same class name as you defined.
 // Use 'partial' keyword for the class.
-// To access base class functions you should inherit from 'Enumeration'.
+// To access the base class functionality you should inherit from 'Enumeration'.
 
 namespace MyNamespace
     public partial class MyClass /*: Enumeration*/
